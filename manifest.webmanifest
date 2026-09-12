@@ -1,0 +1,9 @@
+{
+  "name": "Coordo V2 Stable",
+  "short_name": "Coordo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#2f6af2",
+  "icons": []
+}
