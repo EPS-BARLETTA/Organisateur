@@ -7,16 +7,13 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="/css/app.css?v=5.0.0">
   <title>Organisateur</title>
 </head>
 <body>
   <div id="app" class="appShell">
     <header class="topbar">
-      <div>
-        <h1 id="pageTitle">Accueil</h1>
-        <div id="pageSubtitle" class="muted"></div>
-      </div>
+      <div><h1 id="pageTitle">Accueil</h1><div id="pageSubtitle" class="muted"></div></div>
       <button id="topAction" class="btn primary">+ Tâche</button>
     </header>
     <main id="view"></main>
@@ -30,8 +27,11 @@
     </nav>
   </div>
   <input id="restoreFile" type="file" accept=".json" hidden>
-  <div id="modalRoot"></div>
-  <div id="toastRoot"></div>
-  <script defer src="/js/boot.js?v=4.0.3"></script>
+  <div id="modalRoot"></div><div id="toastRoot"></div>
+  <script src="/js/v5-core.js?v=5.0.0"></script>
+  <script src="/js/v5-tasks.js?v=5.0.0"></script>
+  <script src="/js/v5-agenda.js?v=5.0.0"></script>
+  <script src="/js/v5-mail.js?v=5.0.0"></script>
+  <script src="/js/v5-settings.js?v=5.0.0"></script>
 </body>
 </html>
